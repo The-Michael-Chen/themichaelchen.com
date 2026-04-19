@@ -338,14 +338,14 @@ button {
 .project-card__gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 14px;
+  gap: 6px;
+  margin-top: 12px;
 }
 
 .project-card__thumb {
   position: relative;
-  width: 56px;
-  height: 56px;
+  width: 44px;
+  height: 44px;
   padding: 0;
   border: 1px solid var(--rule);
   background: rgba(255, 255, 255, 0.65);
@@ -449,6 +449,15 @@ button {
 
   .primary-links {
     margin-top: 24px;
+  }
+
+  .project-card__gallery {
+    gap: 8px;
+  }
+
+  .project-card__thumb {
+    width: 42px;
+    height: 42px;
   }
 
   .section,

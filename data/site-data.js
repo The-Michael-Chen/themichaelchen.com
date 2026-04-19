@@ -60,6 +60,21 @@ window.siteData = {
       images: [],
     },
     {
+      title: "Autonomous MBTA Track Cleaning Robot",
+      type: "invention",
+      typeLabel: "Invention",
+      period: "2024",
+      summary:
+        "Worked with a team to help build a car-sized autonomous robot for cleaning MBTA train tracks.",
+      note: "OnTrack team",
+      images: [
+        {
+          src: "/assets/mbta-track-cleaner.jpg",
+          alt: "Car-sized autonomous MBTA track cleaning robot",
+        },
+      ],
+    },
+    {
       title: "Low-Cost Open Source Bipedal Robot",
       type: "research",
       typeLabel: "Research",
@@ -75,6 +90,10 @@ window.siteData = {
         {
           src: "https://firebasestorage.googleapis.com/v0/b/personal-website-7f01b.appspot.com/o/coverImages%2Fbiped_robot.jpg?alt=media&token=5de3b211-3126-4c76-91a7-4b53f33789ea&_gl=1*ercf7n*_ga*MTI0MDYyNjIyNS4xNjk4NzIyNjM1*_ga_CW55HF8NVT*MTY5ODcyOTI5OC4zLjEuMTY5ODczMDQ4Mi42MC4wLjA.",
           alt: "Low-cost open source bipedal robot",
+        },
+        {
+          src: "/assets/biped-robot-render.jpeg",
+          alt: "Rendered image of the low-cost open source bipedal robot",
         },
       ],
     },

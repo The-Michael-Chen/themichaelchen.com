@@ -1,7 +1,9 @@
 window.siteData = {
   profile: {
-    summary:
-      "Working toward general-purpose robotics that moves the world forward and redefines work so more of it becomes easier, more cognitive, and less constrained by repetitive labor.",
+    summary: [
+      "Working toward general-purpose robotics that moves the world forward.",
+      "Redefining work so more of it becomes easier, more cognitive, and less constrained by repetitive labor.",
+    ],
     links: [
       {
         label: "GitHub",

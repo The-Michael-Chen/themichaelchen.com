@@ -15,7 +15,7 @@ const savedTheme = window.localStorage.getItem("theme");
 applyTheme(savedTheme || getPreferredTheme());
 updateThemeToggleLabel();
 
-intro.textContent = siteData.profile.summary;
+renderIntro(siteData.profile.summary);
 
 siteData.profile.links.forEach((link) => {
   const anchor = document.createElement("a");
@@ -190,6 +190,17 @@ function renderProject(project) {
 
   article.appendChild(body);
   return article;
+}
+
+function renderIntro(summary) {
+  const sentences = Array.isArray(summary) ? summary : [summary];
+  const fragments = sentences.map((sentence) => {
+    const paragraph = document.createElement("p");
+    paragraph.textContent = sentence;
+    return paragraph;
+  });
+
+  intro.replaceChildren(...fragments);
 }
 
 function getPreferredTheme() {

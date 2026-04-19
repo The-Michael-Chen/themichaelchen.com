@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael Chen</title>
+    <meta
+      name="description"
+      content="Michael Chen's personal website. Robotics, startups, product work, and a linear archive of projects."
+    />
+    <meta name="color-scheme" content="light" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <p class="eyebrow">Michael Chen</p>
+        <h1>Founder, builder, and operator working across robotics, AI, and product.</h1>
+        <p class="lede" id="intro"></p>
+        <nav class="primary-links" id="primary-links" aria-label="Primary links"></nav>
+      </header>
+
+      <main>
+        <section class="section">
+          <div class="section-heading">
+            <h2>Current Work</h2>
+          </div>
+          <div class="section-body">
+            <div id="current-work" class="stack"></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <h2>Education</h2>
+          </div>
+          <div class="section-body">
+            <div id="education" class="stack"></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <h2>Projects</h2>
+            <p class="section-note">A chronological archive of research, inventions, startups, and product work.</p>
+          </div>
+          <div class="section-body">
+            <div id="projects" class="projects-list" aria-live="polite"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <dialog class="image-modal" id="image-modal">
+      <div class="image-modal__frame">
+        <button class="image-modal__close" id="image-modal-close" type="button" aria-label="Close image">
+          Close
+        </button>
+        <img id="image-modal-target" alt="" />
+        <p id="image-modal-caption"></p>
+      </div>
+    </dialog>
+
+    <script src="./data/site-data.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

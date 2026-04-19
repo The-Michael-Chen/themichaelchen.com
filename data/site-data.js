@@ -1,7 +1,7 @@
 window.siteData = {
   profile: {
-    summary:
-      "I build ambitious systems quickly, with most of my work sitting at the intersection of robotics, software, hardware, and company building. This site is a straightforward record of what I have worked on and what I am building now.",
+    vision:
+      "Working toward general-purpose robotics that moves the world forward and redefines work so more of it becomes easier, more cognitive, and less constrained by repetitive labor.",
     links: [
       {
         label: "GitHub",
@@ -10,6 +10,10 @@ window.siteData = {
       {
         label: "LinkedIn",
         url: "https://www.linkedin.com/in/michael-chen-17464a1b1",
+      },
+      {
+        label: "X",
+        url: "https://x.com/chenouttaten",
       },
       {
         label: "Yondu AI",
@@ -22,7 +26,7 @@ window.siteData = {
       title: "Yondu AI",
       meta: "Co-founder",
       description:
-        "Building robotic systems for warehouse automation, with a focus on getting AI and embodied systems into production environments.",
+        "Building warehouse robotics and applied AI systems with an emphasis on deployment, reliability, and real operational value.",
       link: {
         label: "Visit yondu.ai",
         url: "https://yondu.ai/",
@@ -32,28 +36,12 @@ window.siteData = {
   education: [
     {
       title: "Massachusetts Institute of Technology",
-      meta: "Former student",
+      meta: "Attended",
       description:
-        "Studied robotics, mechanical design, and product development before leaving MIT to pursue startups and independent building full time.",
+        "Studied robotics, mechanical design, and product development before leaving to build companies and systems full time.",
     },
   ],
   projects: [
-    {
-      title: "Personal Website",
-      type: "product",
-      typeLabel: "Project",
-      period: "April 2026",
-      summary:
-        "A stripped-down personal site designed as a linear archive of projects, current work, and background.",
-      details:
-        "Built to be easy to maintain, easy to scroll, and flexible enough to attach multiple images to each project entry.",
-      note: "Current site",
-      link: {
-        label: "View domain",
-        url: "https://themichaelchen.com",
-      },
-      images: [],
-    },
     {
       title: "Yondu AI",
       type: "startup",
@@ -391,12 +379,7 @@ window.siteData = {
       summary:
         "Built a laser-tag game platform around FPV drones.",
       note: "Full MIT ProjX funding",
-      images: [
-        {
-          src: "assets/laserDogfightingDrones-fallback.svg",
-          alt: "Laser dogfighting drones placeholder",
-        },
-      ],
+      images: [],
     },
     {
       title: "Pulmonary Screener",

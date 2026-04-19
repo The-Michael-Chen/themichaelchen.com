@@ -6,7 +6,7 @@ Simple static personal website for [themichaelchen.com](https://themichaelchen.c
 
 - `index.html`: page structure
 - `styles.css`: typography, layout, and responsive styling
-- `script.js`: renders sections and image modal
+- `script.js`: renders sections, the Pretext-powered vision block, and the cursor robot
 - `data/site-data.js`: profile, education, current work, and projects
 - `assets/`: local project images or placeholders
 
